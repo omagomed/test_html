@@ -1,0 +1,41 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-color: blue;
+}
+.box{
+    max-width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: brown;
+    flex-direction: column;
+    margin: 300px auto 0;
+    border: 5px solid #009eb3 ;  
+}
+.button{  
+    margin-bottom: 20px;
+}
+.button a{
+    text-decoration: none;
+    font-size: 13px;
+    color: azure;
+}
+.box input[type="text"], .box input[type="password"],
+ .box input[type="email"] {
+    margin: 10px 0 10px;
+    border-radius: 10px;
+}
+.pustota p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 150px auto 0;
+    color: red;
+    size: 50px;
+    width: 250px;
+    height: 150px;
+    background-color: green;
+}
